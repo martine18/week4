@@ -1,18 +1,20 @@
-multiples = [7, 14, 21, 28, 35]
-
-def multiples(value, length):
-    list_multiples = []
-    i = 0
-    while i < length:
-        list_multiples.append(value*(i+1))
-        i+=1
-    return list_multiples
 
 
+
+num = int(input("Enter a number: "))
+length = int(input("Enter a length: "))
+
+result = []
+for i in range(1, length+1):
+    result.append(num * i)
+print(result)
 
 #Challenge 2
 
 
+strValue = "ppoeemm"+ "\t" +"wiiiinnnnd"+ "\t" +"ttiiitllleeee"+  "\t" +"cccccaaarrrbbonnnnn"
+strValue = ''.join(sorted(set(strValue), key=strValue.index))
+print(strValue)
 
 
 
