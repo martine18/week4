@@ -1,0 +1,86 @@
+#Exercise 1 : Hello World
+
+a = b = c = d = "hello world"
+print(a)
+print(b)
+print(c)
+print(d)
+
+
+#Exercise 2 : Some Math
+
+print(99**3 * 8)
+
+
+
+#Exercise 3 : What Is The Output ?
+
+print(5<3)#false
+print(3==3)#true
+print(3 == "3")#false
+print("3">3) #false
+print("Hello" == "hello")#false
+
+
+#Exercise 4 : Your Computer Brand
+
+
+computer_brand = "lenovo"
+
+print("my computer brand is" + computer_brand)
+
+
+
+
+#Exercise 5 : Your Information
+
+my_name = "martine"
+my_age = "19"
+my_shoe_size = "36"
+my_info = "hello am cool"
+
+print(my_name  + " "+  my_age +" " +my_shoe_size+" " + my_info)
+
+
+
+#Exercise 6 : A & B
+
+a ="10"
+b ="5"
+
+if a >b:
+ print("hello world")
+
+#Exercise 7 : Odd Or Even
+
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+ print("The number is even")
+else:
+ print("The number is odd")
+
+#Exercise 8 : What’s Your Name ?
+
+name = input("What is your name? ")
+if name == "martine":
+ print("We have the same name! How cool is that?")
+else:
+ print("Nice to meet you, " + name + ". My name is Your Name.")
+
+
+#Exercise 9 : Tall Enough To Ride A Roller Coaster
+
+
+height = int(input("Enter your height in inches, please: "))
+if height >= 57:
+ print("You are tall enough to ride!")
+else:
+ print("You are not tall enough to ride.")
+
+
+
+
+
+
+
