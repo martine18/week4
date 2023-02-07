@@ -1,15 +1,11 @@
 #Daily Challenge: Build Up A String
 
-answer = input("enter 10 character of string: ")[:10]
-
-while True:
-    answer = input("string not long enogh")
-    if len(answer) <= 10:
-        break
-    else:
-        print("string is too long")
-        
- 
+ answer= input("write a text:  ")
+if(len(answer)<10):
+    print("string is too long enought")
+    
+elif(len(answer) >10):
+    print("string is too long")
 firstChar = answer[0]
 lastChar = answer[-1]
 
